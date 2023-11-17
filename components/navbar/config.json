@@ -1,0 +1,16 @@
+{
+    "items":[
+        {
+            "nav":"Home"
+        },
+        {
+            "nav":"Assets Monitoring"
+        },
+        {
+            "nav":"Group Overview"
+        },
+        {
+            "nav":"Weekly Report"
+        }
+    ]
+}
