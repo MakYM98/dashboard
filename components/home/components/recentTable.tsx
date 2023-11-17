@@ -3,7 +3,7 @@ import data from '../data.json'
 
 const RecentTable = () => {
     return ( 
-        <div className='border-2 rounded-2xl pt-1 px-2 mt-2 overflow-y-scroll'>
+        <div className='border-2 rounded-2xl pt-1 px-2 mt-2'>
             <h1 className="text-xl pt-3 px-1">
                 Recent Activity
             </h1>

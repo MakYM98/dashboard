@@ -3,7 +3,7 @@ import RecentTable from "./recentTable";
 
 const CreditSection = () => {
     return ( 
-        <div className="">
+        <div>
             <CreditCard/>
             <RecentTable/>
         </div>

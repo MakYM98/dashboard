@@ -9,7 +9,7 @@ const Home = () => {
     return ( 
         <div className="h-full">
             <TabHeader title="Dashboard"/>
-            <div className="grid grid-cols-3 gap-1 h-full pt-5">
+            <div className="grid grid-cols-3 gap-1 h-full pt-5 max-h-full">
                 <div className="col-span-2 flex flex-col">
                     {/* Card Section to show High Level Info */}
                     <div className="w-full grid grid-cols-3 gap-2 ">
@@ -26,11 +26,11 @@ const Home = () => {
                     </div>
                     {/* Graph Section to show Assets/Liabilities Trend */}
                     <div className=" border-2 rounded-2xl mt-2 flex-auto">
-                        {/* <TrendGraph/> */}
+                        <TrendGraph/>
                     </div>
                 </div>
                 {/* To show CC Details & Past Transactions */}
-                <div className="col-span-1 h-[100%] border-2 rounded-2xl p-2">
+                <div className="col-span-1 border-2 rounded-2xl p-2 ">
                         <CreditSection/>
                 </div>
             </div>
