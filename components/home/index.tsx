@@ -26,7 +26,9 @@ const Home = () => {
                     </div>
                     {/* Graph Section to show Assets/Liabilities Trend */}
                     <div className=" border-2 rounded-2xl mt-2 flex-auto">
-                        <TrendGraph/>
+                        <div className="h-full w-full flex items-center">
+                            <TrendGraph/>
+                        </div>
                     </div>
                 </div>
                 {/* To show CC Details & Past Transactions */}

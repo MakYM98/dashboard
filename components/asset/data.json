@@ -1,0 +1,29 @@
+{
+    "asset_data":[
+        {"name":"05/2023", "Assets":10200, "Liabilities": 2300},
+        {"name":"06/2023", "Assets":10200, "Liabilities": 2300},
+        {"name":"07/2023", "Assets":10200, "Liabilities": 2300},
+        {"name":"08/2023", "Assets":10200, "Liabilities": 2300},
+        {"name":"09/2023", "Assets":10200, "Liabilities": 2300},
+        {"name":"10/2023", "Assets":10200, "Liabilities": 2300},
+        {"name":"11/2023", "Assets":10200, "Liabilities": 2300}
+    ],
+    "asset_table":[
+        {"name":"Apple", "ticker":"AAPL", "shares": 20, "DCA": 180.90, "Total":3618},
+        {"name":"Microsoft", "ticker":"MSFT", "shares": 10, "DCA": 361.20, "Total":3612},
+        {"name":"Nvidia", "ticker":"NVDA", "shares": 3, "DCA": 492.98, "Total":1478.94},
+        {"name":"Visa", "ticker":"V", "shares": 13, "DCA": 231.24, "Total":3618},
+        {"name":"Johnson Johnson", "ticker":"JNJ", "shares": 4, "DCA": 134.20, "Total":536.8},
+        {"name":"CocaCola", "ticker":"KO", "shares": 30, "DCA": 55.67, "Total":1670.1},
+        {"name":"Walmart Inc", "ticker":"WMT", "shares": 8, "DCA": 153.94, "Total":1231.52}
+    ],
+    "asset_pie":[
+        {"name":"Apple", "ticker":"AAPL", "shares": 20, "DCA": 180.90, "Total":3618},
+        {"name":"Microsoft", "ticker":"MSFT", "shares": 10, "DCA": 361.20, "Total":3612},
+        {"name":"Nvidia", "ticker":"NVDA", "shares": 3, "DCA": 492.98, "Total":1478.94},
+        {"name":"Visa", "ticker":"V", "shares": 13, "DCA": 231.24, "Total":3618},
+        {"name":"Johnson Johnson", "ticker":"JNJ", "shares": 4, "DCA": 134.20, "Total":536.8},
+        {"name":"CocaCola", "ticker":"KO", "shares": 30, "DCA": 55.67, "Total":1670.1},
+        {"name":"Walmart Inc", "ticker":"WMT", "shares": 8, "DCA": 153.94, "Total":1231.52}
+    ]
+}

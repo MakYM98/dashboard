@@ -1,3 +1,4 @@
+import Assets from '@/components/asset';
 import Home from '@/components/home';
 import { useSelector } from 'react-redux';
 
@@ -8,6 +9,9 @@ const App = () => {
             {
                 tab == 'Home'?
                 <Home/>
+                :
+                tab == 'Assets'?
+                <Assets/>
                 :
                 <></>
             }

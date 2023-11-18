@@ -4,13 +4,10 @@ import data from '../data.json'
 import { LineChart, CartesianGrid, YAxis, XAxis, Tooltip,
           Legend, Line, ResponsiveContainer } from 'recharts'
 
-const TrendGraph = () => {
-    const [options, setOptions] = useState({})
-    const [chartRendered, setChartRendered] = useState(false)
-
+const AssetTrend = () => {
     return ( 
       <ResponsiveContainer height={'90%'} width={'95%'}>
-        <LineChart width={730} height={250} data={data['home_data']}
+        <LineChart width={730} height={250} data={data['asset_data']}
         margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="name" />
@@ -24,4 +21,4 @@ const TrendGraph = () => {
     );
 }
  
-export default TrendGraph;
+export default AssetTrend;

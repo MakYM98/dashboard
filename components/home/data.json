@@ -20,5 +20,15 @@
         {"name": "Netflix", "amount": "$13.00", "date": "23/11/2023"},
         {"name": "Netflix", "amount": "$13.00", "date": "23/11/2023"},
         {"name": "Netflix", "amount": "$13.00", "date": "23/11/2023"}
+    ],
+    "home_data":[
+        {"name":"13/11/2023", "Assets":10200, "Liabilities": 2300},
+        {"name":"14/11/2023", "Assets":10200, "Liabilities": 2300},
+        {"name":"15/11/2023", "Assets":10200, "Liabilities": 2300},
+        {"name":"16/11/2023", "Assets":10200, "Liabilities": 2300},
+        {"name":"17/11/2023", "Assets":10200, "Liabilities": 2300},
+        {"name":"18/11/2023", "Assets":10200, "Liabilities": 2300},
+        {"name":"19/11/2023", "Assets":10200, "Liabilities": 2300}
+
     ]
 }
