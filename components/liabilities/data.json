@@ -1,0 +1,16 @@
+{
+    "loan_pie":[
+        {"name":"Paid", "amount":10000},
+        {"name":"Remaining", "amount":102968}
+    ],
+    "loan_table":[
+        {"name":"Student Loan", "total": 400, "paid": 200, "monthly":200, "upcoming":"17/11/2023"},
+        {"name":"Housing Loan", "total": 400, "paid": 200, "monthly":200, "upcoming":"12/11/2023"},
+        {"name":"Renovation Loan", "total": 400, "paid": 200, "monthly":200, "upcoming":"08/11/2023"}
+    ],
+    "payment_table":[
+        {"date":"12/11/2023", "loan": "Housing Loan", "amount": 200},
+        {"date":"08/11/2023", "loan": "Renovation Loan", "amount": 200},
+        {"date":"17/10/2023", "loan": "Student Loan", "amount": 200}
+    ]
+}

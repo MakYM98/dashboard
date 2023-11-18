@@ -1,6 +1,7 @@
 import Assets from '@/components/asset';
 import Expenses from '@/components/expense';
 import Home from '@/components/home';
+import Liabilities from '@/components/liabilities';
 import { useSelector } from 'react-redux';
 
 const App = () => {
@@ -16,6 +17,9 @@ const App = () => {
                 :
                 tab == 'Expenses'?
                 <Expenses/>
+                :
+                tab == 'Liabilities'?
+                <Liabilities/>
                 :
                 <></>
             }
