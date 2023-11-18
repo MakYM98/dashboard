@@ -1,17 +1,8 @@
 {
     "card_data": [
-        {
-            "name": "Organisations",
-            "amount": 18
-        },
-        {
-            "name": "Groups",
-            "amount": 142
-        },
-        {
-            "name": "Assets",
-            "amount": 2054
-        }
+        {"name": "Assets", "amount": "$15,153.48"},
+        {"name": "Loans", "amount": "$215,825"},
+        {"name": "Expenses", "amount": "$412"}
     ],
     "activity_data": [
         {"name": "Netflix", "amount": "$13.00", "date": "23/11/2023"},

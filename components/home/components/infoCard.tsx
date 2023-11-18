@@ -1,9 +1,9 @@
 "use client"
-import { BeakerIcon } from "@heroicons/react/20/solid"
+import { FaHome,FaWallet, FaRegCreditCard,FaMoneyBill} from "react-icons/fa";
 
 interface InfoProps {
     title: string,
-    value: number,
+    value: string,
 
 }
 
@@ -11,12 +11,20 @@ const InfoCard = ({title, value} : InfoProps) => {
     return ( 
         <div className="w-full h-full bg-white rounded-2xl flex items-center border-2 px-5 py-4">
             {/* Card Icon */}
-            {
-                title == 'Assets'?
-                <BeakerIcon className="w-[75px] bg-black text-white rounded-full p-2"/>
-                :
-                <BeakerIcon className="w-[75px] bg-black text-white rounded-full p-2"/>
-            }
+            <div className="w-[75px] h-[75px] bg-black rounded-full ">
+                {
+                    title == 'Assets'?
+                    <FaMoneyBill className="w-[75px] h-[75px] text-white p-4"/>
+                    :
+                    title == 'Loans'?
+                    <FaRegCreditCard className="w-[75px] h-[75px] text-white p-4"/>
+                    :
+                    title == 'Expenses'?
+                    <FaWallet className="w-[75px] h-[75px] text-white p-4"/>
+                    :
+                    <></>
+                }
+            </div>
             <div className="w-full p-[5px] ml-2">
                 <h5 className="text-xl">
                     {value}
