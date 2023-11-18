@@ -42,15 +42,10 @@ const Home = () => {
  
 export default Home;
 
-// Assets page
-// Line Chart to show progress
-// Pie Chart to show breakdown
-// Table to show every single asset.
-
 // Expense Page
-// Line Chart to show total expenses
-// Table to show expenses 
-// Table to show Recurring Expenses
+// Pie chart with Category Breakdown
+// Cards to show Budgets
+// Table to show Expenses
 
 // Liabilities Page
 // Line Chart to show total expenses
