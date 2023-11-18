@@ -8,8 +8,8 @@ export default function Page() {
   return (
     <Provider store={store}>
       <div className="
-        bg-white w-[calc(100%-230px)] h-[95%] float-right p-10 mt-5 mr-5
-        rounded-xl
+        bg-[#fcfbf9] w-[calc(100%-230px)] h-[95%] float-right p-5 mt-5 mr-5
+        rounded-xl pl-8
       ">
         <App/>
       </div>

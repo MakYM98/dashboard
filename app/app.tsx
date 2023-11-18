@@ -18,7 +18,7 @@ const App = () => {
                 tab == 'Expenses'?
                 <Expenses/>
                 :
-                tab == 'Liabilities'?
+                tab == 'Loan'?
                 <Liabilities/>
                 :
                 <></>
