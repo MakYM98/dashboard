@@ -6,12 +6,11 @@
         {"name": "Upcoming Payment", "amount": "$291.52"}
     ],
     "activity_data": [
-        {"name": "Netflix", "amount": "$13.00", "date": "23/11/2023"},
-        {"name": "Spotify", "amount": "$12.98", "date": "17/11/2023"},
-        {"name": "Netflix", "amount": "$13.00", "date": "23/11/2023"},
-        {"name": "Netflix", "amount": "$13.00", "date": "23/11/2023"},
-        {"name": "Netflix", "amount": "$13.00", "date": "23/11/2023"},
-        {"name": "Netflix", "amount": "$13.00", "date": "23/11/2023"}
+        {"name": "Netflix", "amount": "-$13.00", "date": "23/11/2023", "category":"Entertainment"},
+        {"name": "Spotify", "amount": "-$12.98", "date": "17/11/2023", "category":"Entertainment"},
+        {"name": "Salary", "amount": "+$2,198.00", "date": "23/11/2023", "category":"Income"},
+        {"name": "MacDonalds", "amount": "-$7.62", "date": "23/11/2023", "category":"Food"},
+        {"name": "KOI", "amount": "-$4.60", "date": "23/11/2023", "category":"Food"}
     ],
     "home_data":[
         {"name":"05/2023", "Assets":14802.58, "Liabilities": 25812.87},

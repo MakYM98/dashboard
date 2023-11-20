@@ -6,7 +6,7 @@ import { LineChart, CartesianGrid, YAxis, XAxis, Tooltip,
 
 const TrendGraph = () => {
     return ( 
-      <ResponsiveContainer height={'100%'} width={'95%'}>
+      <ResponsiveContainer height={'85%'} width={'95%'}>
         <LineChart width={730} height={250} data={data['home_data']}
         margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
           <CartesianGrid strokeDasharray="3 3" vertical={false}/>
@@ -14,8 +14,8 @@ const TrendGraph = () => {
           <YAxis />
           <Tooltip />
           <Legend />
-          <Line type="monotone" dataKey="Assets" stroke="#8884d8"/>
-          <Line type="monotone" dataKey="Liabilities" stroke="#82ca9d" />
+          <Line type="monotone" dataKey="Assets" stroke="#3f8f29"/>
+          <Line type="monotone" dataKey="Liabilities" stroke="#de1a24" />
         </LineChart>
       </ResponsiveContainer>
     );

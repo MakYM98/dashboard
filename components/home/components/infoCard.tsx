@@ -10,7 +10,7 @@ interface InfoProps {
 
 const InfoCard = ({title, value} : InfoProps) => {
     return ( 
-        <div className="w-full h-[200px] bg-[#dbdddc] rounded-2xl  border-2 px-5 py-4">
+        <div className="w-full max-h-[200px] bg-[#dbdddc] rounded-2xl  border-2 px-5 py-4">
             {/* Card Icon */}
             <div className="w-[75px] h-[75px] text-[#2f335b] rounded-full ">
                 {
