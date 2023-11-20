@@ -9,13 +9,13 @@ const TrendGraph = () => {
       <ResponsiveContainer height={'85%'} width={'95%'}>
         <LineChart width={730} height={250} data={data['home_data']}
         margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
-          <CartesianGrid strokeDasharray="" stroke='#525356' vertical={false}/>
-          <XAxis dataKey="name" stroke='#525356'/>
-          <YAxis stroke='#525356'/>
+          <CartesianGrid strokeDasharray="3 3" vertical={false}/>
+          <XAxis dataKey="name"/>
+          <YAxis />
           <Tooltip />
           <Legend />
-          <Line type="monotone" dataKey="Assets" stroke="rgb(14 159 110)" dot={false}/>
-          <Line type="monotone" dataKey="Liabilities" stroke="rgb(240 82 82)" dot={false}/>
+          <Line type="monotone" dataKey="Assets" stroke="#3f8f29" dot={false}/>
+          <Line type="monotone" dataKey="Liabilities" stroke="#de1a24" dot={false}/>
         </LineChart>
       </ResponsiveContainer>
     );

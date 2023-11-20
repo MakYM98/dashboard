@@ -10,7 +10,7 @@ const NavItems = () => {
     const dispatch = useDispatch()
 
     return ( 
-        <div className="w-[100%] h-[calc(100%-50px)] flex flex-col mt-5 justify-between">
+        <div className="w-[100%] h-[720px] flex flex-col mt-5 justify-between">
             <div>
                 <div>
                     <UserSection/>

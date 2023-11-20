@@ -9,13 +9,12 @@ const AssetTrend = () => {
       <ResponsiveContainer height={'90%'} width={'95%'}>
         <LineChart width={730} height={250} data={data['asset_data']}
         margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" />
-          <YAxis />
+          <CartesianGrid strokeDasharray="" stroke='#525356' vertical={false}/>
+          <XAxis dataKey="name" stroke='#525356'/>
+          <YAxis domain={[14000,15200]} stroke='#525356'/>
           <Tooltip />
           <Legend />
-          <Line type="monotone" dataKey="Assets" stroke="#8884d8" />
-          <Line type="monotone" dataKey="Liabilities" stroke="#82ca9d" />
+          <Line type="monotone" dataKey="Assets" stroke="#8884d8" dot={false}/>
         </LineChart>
       </ResponsiveContainer>
     );
