@@ -1,5 +1,7 @@
 "use client"
 import data from '../data.json'
+import { FaFilm, FaMoneyBillWave } from "react-icons/fa";
+import { IoFastFoodSharp } from "react-icons/io5";
 
 const RecentTable = () => {
     return ( 
@@ -10,6 +12,24 @@ const RecentTable = () => {
                         {
                             data['activity_data'].map((item, i) => (
                                 <tr>
+                                    <td className={`pb-2 w-[15%]`}>
+                                        <div>
+                                            <p className=' text-white'>
+                                                {
+                                                    item.category == 'Entertainment'?
+                                                        <FaFilm className="w-[80%] md:w-[70%] lg:w-[60%] xl:w-[40%] h-full"/>
+                                                    :
+                                                    item.category == 'Income'?
+                                                        <FaMoneyBillWave className="w-[80%] md:w-[70%] lg:w-[60%] xl:w-[40%] h-full"/>
+                                                    :
+                                                    item.category == 'Food'?
+                                                        <IoFastFoodSharp className="w-[80%] md:w-[80%] lg:w-[60%] xl:w-[40%] h-full"/>
+                                                    :
+                                                        <></>
+                                                }
+                                            </p>
+                                        </div>
+                                    </td>
                                     <td className={`pb-2`}>
                                         <div>
                                             <p className='pb-2 text-white'>
