@@ -4,7 +4,7 @@ interface HeaderProps {
 
 const TabHeader = ({title} : HeaderProps) => {
     return ( 
-        <h1 className="text-3xl text-black">
+        <h1 className="text-3xl text-[#2f335b]">
             {title}
         </h1>
     );

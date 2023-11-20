@@ -3,8 +3,8 @@ import data from '../data.json'
 
 const RecentTable = () => {
     return ( 
-        <div className='border-2 rounded-2xl pt-1 px-2 mt-2'>
-            <h1 className="text-xl pt-3 px-1">
+        <div className='px-2 w-full'>
+            <h1 className="text-xl px-1 text-[#2f335b]">
                 Recent Activity
             </h1>
             <div className="px-1">
@@ -20,9 +20,11 @@ const RecentTable = () => {
                         {
                             data['activity_data'].map((item, i) => (
                                 <tr>
-                                    <td className={`${data['activity_data'][i+1]? 'border-b-2 border-slate-100':''} pb-2`}>{item.name}</td>
-                                    <td className={`${data['activity_data'][i+1]? 'border-b-2 border-slate-100':''} pb-2`}>{item.amount}</td>
-                                    <td className={`${data['activity_data'][i+1]? 'border-b-2 border-slate-100':''} pb-2`}>{item.date}</td>
+                                    <td className={`${data['activity_data'][i+1]? 'border-b-2 border-slate-100':''} pb-2 text-[#2f335b]`}>
+                                        {item.name}
+                                    </td>
+                                    <td className={`${data['activity_data'][i+1]? 'border-b-2 border-slate-100':''} pb-2 text-[#2f335b]`}>{item.amount}</td>
+                                    <td className={`${data['activity_data'][i+1]? 'border-b-2 border-slate-100':''} pb-2 text-[#2f335b]`}>{item.date}</td>
                                 </tr>
                             ))
                         }

@@ -1,8 +1,9 @@
 {
     "card_data": [
         {"name": "Assets", "amount": "$15,153.48"},
-        {"name": "Loans", "amount": "$215,825"},
-        {"name": "Expenses", "amount": "$412"}
+        {"name": "Loans", "amount": "$20,519.98"},
+        {"name": "Expenses", "amount": "$412"},
+        {"name": "Upcoming Payment", "amount": "$291.52"}
     ],
     "activity_data": [
         {"name": "Netflix", "amount": "$13.00", "date": "23/11/2023"},
@@ -13,13 +14,13 @@
         {"name": "Netflix", "amount": "$13.00", "date": "23/11/2023"}
     ],
     "home_data":[
-        {"name":"13/11/2023", "Assets":10200, "Liabilities": 2300},
-        {"name":"14/11/2023", "Assets":10200, "Liabilities": 2300},
-        {"name":"15/11/2023", "Assets":10200, "Liabilities": 2300},
-        {"name":"16/11/2023", "Assets":10200, "Liabilities": 2300},
-        {"name":"17/11/2023", "Assets":10200, "Liabilities": 2300},
-        {"name":"18/11/2023", "Assets":10200, "Liabilities": 2300},
-        {"name":"19/11/2023", "Assets":10200, "Liabilities": 2300}
+        {"name":"05/2023", "Assets":14802.58, "Liabilities": 25812.87},
+        {"name":"06/2023", "Assets":14918.12, "Liabilities": 24918.51},
+        {"name":"07/2023", "Assets":10200, "Liabilities": 24185.28},
+        {"name":"08/2023", "Assets":10200, "Liabilities": 23985.83},
+        {"name":"09/2023", "Assets":10200, "Liabilities": 23512.08},
+        {"name":"10/2023", "Assets":10200, "Liabilities": 21732.18},
+        {"name":"11/2023", "Assets":15153.48, "Liabilities": 20519.98}
 
     ]
 }
