@@ -10,9 +10,9 @@ const RecentTable = () => {
                         {
                             data['activity_data'].map((item, i) => (
                                 <tr>
-                                    <td className={`${data['activity_data'][i+1]? 'border-b-2 border-slate-100':''} pb-2 text-[#2f335b]`}>
+                                    <td className={`pb-2`}>
                                         <div>
-                                            <p className='pb-2'>
+                                            <p className='pb-2 text-white'>
                                                 {item.name}
                                             </p>
                                             <p className='text-gray-400'>
@@ -20,7 +20,7 @@ const RecentTable = () => {
                                             </p>
                                         </div>
                                     </td>
-                                    <td className={`${data['activity_data'][i+1]? 'border-b-2 border-slate-100':''} pb-2 text-[#2f335b]`}>
+                                    <td className={` pb-2 text-[#2f335b]`}>
                                         <div>
                                             <p className={`pb-2 text-end ${item.amount[0] == '-'? 'text-red-500':'text-green-500'}`}>
                                                 {item.amount}

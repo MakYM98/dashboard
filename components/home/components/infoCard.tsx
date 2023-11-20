@@ -10,9 +10,9 @@ interface InfoProps {
 
 const InfoCard = ({title, value} : InfoProps) => {
     return ( 
-        <div className="w-full max-h-[200px] bg-[#dbdddc] rounded-2xl  border-2 px-5 py-4">
+        <div className="w-full max-h-[200px] bg-[#2f3033] rounded-2xl px-5 py-4">
             {/* Card Icon */}
-            <div className="w-[75px] h-[75px] text-[#2f335b] rounded-full ">
+            <div className="w-[75px] h-[75px] text-white rounded-full ">
                 {
                     title == 'Assets'?
                     <FaMoneyBill className="w-[75px] h-[75px] p-3"/>
@@ -31,10 +31,10 @@ const InfoCard = ({title, value} : InfoProps) => {
             </div>
             <div className="w-full p-[5px] ml-2 flex">
                 <div className="w-[100%]">
-                    <h5 className="text-sm text-gray-500 mb-2">
+                    <h5 className="text-sm text-gray-400 mb-2">
                         {title}
                     </h5>
-                    <h5 className="text-2xl">
+                    <h5 className="text-2xl text-white">
                         {value}
                     </h5>
                 </div>

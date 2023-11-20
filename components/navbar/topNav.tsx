@@ -5,7 +5,7 @@ const TopNav = () => {
     return ( 
         <div className="flex mt-5">
             <div className="h-full w-full flex items-center">
-                <h1 className="text-2xl text-[#2f335b] w-[230px] text-center">
+                <h1 className="text-2xl text-white w-[230px] text-center">
                     FinDash
                 </h1>
                 <div className="w-[50%] pl-4">
@@ -17,21 +17,21 @@ const TopNav = () => {
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
                                 </svg>
                             </div>
-                            <input type="search" id="default-search" className="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search" required/>
+                            <input type="search" id="default-search" className="block w-full p-4 ps-10 text-sm text-gray-900 border border-[#0c0d10] rounded-lg bg-[#0c0d10] focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search" required/>
                         </div>
                     </form>
                 </div>
                 <div className="w-[50%] flex items-center justify-end mr-5">
-                    <div className="bg-white p-2 rounded-2xl mr-3">
+                    <div className="bg-[#3c3d3f] text-white p-2 rounded-2xl mr-3">
                         <MdOutlineCreditCard size={25}/>
                     </div>
-                    <div className="bg-white p-2 rounded-2xl mr-3">
+                    <div className="bg-[#3c3d3f] text-white p-2 rounded-2xl mr-3">
                     <MdOutlineMessage size={25}/>
                     </div>
-                    <div className="bg-white p-2 rounded-2xl mr-3">
+                    <div className="bg-[#3c3d3f] text-white p-2 rounded-2xl mr-3">
                     <MdNotifications size={25}/>
                     </div>
-                    <div className="bg-white p-2 rounded-2xl mr-3">
+                    <div className="bg-[#3c3d3f] text-white p-2 rounded-2xl mr-3">
                     <FaUser size={25}/>
                     </div>
                 </div>

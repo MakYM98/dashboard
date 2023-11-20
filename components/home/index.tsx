@@ -25,16 +25,16 @@ const Home = () => {
                         }
                     </div>
                     {/* Graph Section to show Assets/Liabilities Trend */}
-                    <div className="w-full h-full pt-5">
+                    <div className="w-full h-full pt-5 pb-5">
                         <div className="flex w-full max-h-full gap-5">
                             <div className="max-h-full w-[25%] flex items-start flex-col">                   
-                                <h1 className="text-xl px-3 text-[#2f335b]">
-                                    Recent Activity
+                                <h1 className="text-xl px-3 text-white font-bold">
+                                    Recent
                                 </h1>
                                 <RecentTable/>
                             </div>
-                            <div className="min-h-full w-[75%] flex flex-col justify-start">
-                                <h1 className="text-xl px-3 text-[#2f335b] mb-5">
+                            <div className="min-h-full w-[75%] flex flex-col justify-center bg-[#2f3033] rounded-2xl">
+                                <h1 className="text-xl px-3 text-white mb-5 ml-4 font-bold">
                                     Overview
                                 </h1>
                                 <TrendGraph/>

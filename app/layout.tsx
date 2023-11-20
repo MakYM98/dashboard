@@ -18,10 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={font.className}>
+      <body className={`${font.className} flex flex-col`}>
           <TopNav/>
-          <SideNav/>
-          {children}
+          <div>
+            <SideNav/>
+            {children}
+          </div>
           <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
       </body>
     </html>

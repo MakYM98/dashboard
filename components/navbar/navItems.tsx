@@ -19,23 +19,23 @@ const NavItems = () => {
                     <div
                         onClick={()=>{dispatch(updTab({tab:item.nav}))}}
                         className={`
-                            pt-5 text-lg text-gray-400 hover:text-[#2f335b] 
+                            pt-5 text-lg text-gray-400 hover:text-[#9a9764] 
                             cursor-pointer flex items-center
-                            ${tabSelected == item.nav? 'text-[#2f335b]':''}
+                            ${tabSelected == item.nav? 'text-[#9a9764]':'text-[#525356]'}
                         `}
                     >
                         {
                             item.nav=='Home'?
-                            <FaHome className={`mr-2 ${tabSelected == item.nav? 'text-[#2f335b]':''}`}/>
+                            <FaHome className={`mr-2 ${tabSelected == item.nav? 'text-[#9a9764]':''}`}/>
                             :
                             item.nav=='Assets'?
-                            <FaMoneyBill className={`mr-2 ${tabSelected == item.nav? 'text-[#2f335b]':''}`}/>
+                            <FaMoneyBill className={`mr-2 ${tabSelected == item.nav? 'text-[#9a9764]':''}`}/>
                             :
                             item.nav=='Expenses'?
-                            <FaWallet className={`mr-2 ${tabSelected == item.nav? 'text-[#2f335b]':''}`}/>
+                            <FaWallet className={`mr-2 ${tabSelected == item.nav? 'text-[#9a9764]':''}`}/>
                             :
                             item.nav=='Loan'?
-                            <FaRegCreditCard className={`mr-2 ${tabSelected == item.nav? 'text-[#2f335b]':''}`}/>
+                            <FaRegCreditCard className={`mr-2 ${tabSelected == item.nav? 'text-[#9a9764]':''}`}/>
                             :
                             <></>
                         }
