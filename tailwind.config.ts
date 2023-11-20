@@ -13,17 +13,11 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
-      screens:{
-        "tall": {'raw': 'max-height:800px'},
-        "short": {'raw': 'max-height:600px'}
       }
     },
   },
   plugins: [
-    require('flowbite/plugin')({
-      charts:true
-    })
+    require('flowbite/plugin')
   ],
 }
 export default config

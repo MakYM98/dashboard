@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Urbanist } from 'next/font/google'
 import './globals.css'
 import SideNav from '@/components/navbar/sideNav'
+import TopNav from '@/components/navbar/topNav'
 
 const font = Urbanist({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={font.className}>
+          <TopNav/>
           <SideNav/>
           {children}
           <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
