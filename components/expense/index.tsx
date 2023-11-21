@@ -2,18 +2,23 @@
 import TabHeader from "../headers/tabHeader";
 import ExpCard from "./components/expCard";
 import ExpPie from "./components/expPie";
+import ExpPieTable from "./components/expPieTable";
 import ExpTable from "./components/expTable";
 import data from './data.json'
 
 const Expenses = () => {
     return ( 
-        <div className="h-full">
+        <div className="h-full flex flex-col">
             <TabHeader title="Expenses"/>
-            <div className="h-full w-full flex gap-2">
-                <div className="h-full w-[30%] mt-5 border-2 rounded-2xl flex justify-center items-center">
+            <div className="h-[95%] w-full flex gap-2">
+                <div className="h-[100%] w-[40%] xl:w-[25%] pt-5 mt-2 rounded-2xl flex flex-col justify-start bg-[#2f3033] items-start">
+                    <h1 className="text-xl px-3 text-white w-full pb-2 pl-4 font-bold">
+                        Expenses Breakdown
+                    </h1>
                     <ExpPie/>
+                    <ExpPieTable/>
                 </div>
-                <div className="w-[70%] h-full mt-5">
+                <div className="w-[60%] xl:w-[75%] h-full mt-5">
                     <div className="w-full h-[20%] grid grid-cols-3 gap-1 px-2 pt-2">
                     
                         {

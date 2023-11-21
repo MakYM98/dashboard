@@ -9,7 +9,7 @@ const TrendGraph = () => {
       <ResponsiveContainer height={'85%'} width={'95%'}>
         <LineChart width={730} height={250} data={data['home_data']}
         margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
-          <CartesianGrid strokeDasharray="3 3" vertical={false}/>
+          <CartesianGrid strokeDasharray="" stroke='#525356' vertical={false}/>
           <XAxis dataKey="name"/>
           <YAxis />
           <Tooltip />

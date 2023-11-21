@@ -8,7 +8,7 @@ const Assets = () => {
     return ( 
         <div className="h-full flex flex-col">
             <TabHeader title="Assets"/>
-            <div className="flex w-full h-[95%]">
+            <div className="flex w-full h-[95%] gap-2">
                 <div className="w-[60%] h-full">
                     <AssetTable/>
                 </div>

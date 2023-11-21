@@ -9,7 +9,7 @@ const Home = () => {
     return ( 
         <div className="h-full flex flex-col">
             <TabHeader title="Dashboard"/>
-            <div className="gap-1 pt-5 flex-grow h-full">
+            <div className="gap-1 pt-2 flex-grow h-full">
                 <div className="flex flex-col">
                     {/* Card Section to show High Level Info */}
                     <div className="w-full grid grid-cols-4 gap-2 h-full">
