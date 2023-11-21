@@ -18,8 +18,8 @@ const Expenses = () => {
                     <ExpPie/>
                     <ExpPieTable/>
                 </div>
-                <div className="w-[60%] xl:w-[75%] h-full mt-5">
-                    <div className="w-full h-[20%] grid grid-cols-3 gap-1 px-2 pt-2">
+                <div className="w-[60%] xl:w-[75%] h-full">
+                    <div className="w-full h-[20%] grid grid-cols-3 gap-3 px-2 pt-2">
                     
                         {
                             data['exp_cards'].map(card => (
@@ -28,12 +28,13 @@ const Expenses = () => {
                                         name={card.name}
                                         budget={card.budget}
                                         used={card.used}
+                                        percentage={card.percentage}
                                     />
                                 </div>
                             ))
                         }
                     </div>
-                    <div className="px-2 mt-2">
+                    <div className="px-2">
                         <ExpTable/>
                     </div>
                 </div>

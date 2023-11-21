@@ -10,9 +10,9 @@
         {"name":"", "Budget":"Food", "Date": "18/11/2023", "Amount":2, "Status": "Pending"}
     ],
     "exp_cards":[
-        {"name":"Food", "budget": 400, "used": 200},
-        {"name":"Entertainment", "budget": 200, "used": 180},
-        {"name":"Transport", "budget": 150, "used": 25}
+        {"name":"Food", "budget": "$400.00", "used": "$200.00", "percentage": "50%"},
+        {"name":"Hobbies", "budget": "$200.00", "used": "$80.00", "percentage": "40%"},
+        {"name":"Transport", "budget": "$150.00", "used": "$50.00", "percentage":"30%"}
     ],
     "exp_pie":[
         {"name":"Food", "Total":60},
