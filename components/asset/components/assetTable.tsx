@@ -11,6 +11,7 @@ const AssetTable = () => {
                             <th>Name</th>
                             <th>Shares / Avg</th>
                             <th>Total</th>
+                            <th>Current Price</th>
                             <th>Daily Gain</th>
                         </tr>
                     </thead>
@@ -30,6 +31,7 @@ const AssetTable = () => {
                                     </td>
                                     <td className={`pb-2 text-white`}>{item.shares} / {item.DCA}</td>
                                     <td className={`pb-2 text-white`}>{item.Total}</td>
+                                    <td className={`pb-2 text-white`}>{item['Current Price']}</td>
                                     <td className={`pb-2 ${item['Daily Gain'][0] == '-'? 'text-red-500':'text-green-500'}`}>
                                         {item['Daily Gain']}
                                     </td>

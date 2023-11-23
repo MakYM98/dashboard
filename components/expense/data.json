@@ -1,13 +1,13 @@
 {
     "exp_table":[
-        {"name":"MacDonalds", "Budget":"Food", "Date": "18/11/2023", "Amount":2, "Status": "Approved"},
-        {"name":"Bus", "Budget":"Transport", "Date": "18/11/2023", "Amount":2, "Status": "Approved"},
-        {"name":"", "Budget":"Food", "Date": "18/11/2023", "Amount":2, "Status": "Approved"},
-        {"name":"", "Budget":"Food", "Date": "18/11/2023", "Amount":2, "Status": "Approved"},
-        {"name":"", "Budget":"Food", "Date": "18/11/2023", "Amount":2, "Status": "Pending"},
-        {"name":"", "Budget":"Food", "Date": "18/11/2023", "Amount":2, "Status": "Pending"},
-        {"name":"", "Budget":"Food", "Date": "18/11/2023", "Amount":2, "Status": "Pending"},
-        {"name":"", "Budget":"Food", "Date": "18/11/2023", "Amount":2, "Status": "Pending"}
+        {"name":"MacDonalds", "Budget":"Food", "Date": "18/11/2023", "Amount":"$8.70", "Status": "Pending"},
+        {"name":"Bus", "Budget":"Transport", "Date": "18/11/2023", "Amount":"3.20", "Status": "Pending"},
+        {"name":"Gym Membership", "Budget":"Hobby", "Date": "18/11/2023", "Amount":"$240.00", "Status": "Declined"},
+        {"name":"Bread Street Kitchen", "Budget":"Food", "Date": "18/11/2023", "Amount":"$210.00", "Status": "Approved"},
+        {"name":"MRT", "Budget":"Transport", "Date": "17/11/2023", "Amount":"$2.20", "Status": "Approved"},
+        {"name":"Bus", "Budget":"Transport", "Date": "17/11/2023", "Amount":"$1.50", "Status": "Approved"},
+        {"name":"Koufu", "Budget":"Food", "Date": "18/11/2023", "Amount":"$7.20", "Status": "Pending"},
+        {"name":"Astons", "Budget":"Food", "Date": "18/11/2023", "Amount":"$12.50", "Status": "Pending"}
     ],
     "exp_cards":[
         {"name":"Food", "budget": "$400.00", "used": "$200.00", "percentage": "50%"},

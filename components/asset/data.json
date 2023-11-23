@@ -9,13 +9,13 @@
         {"name":"11/2023", "Assets":15153.48}
     ],
     "asset_table":[
-        {"name":"Apple", "ticker":"AAPL", "shares": 20, "DCA": "$180.90", "Total":"$3,618.00", "Daily Gain": "$451.28"},
-        {"name":"Microsoft", "ticker":"MSFT", "shares": 10, "DCA": "$361.20", "Total":"$3,612.00", "Daily Gain": "$451.28"},
-        {"name":"Nvidia", "ticker":"NVDA", "shares": 3, "DCA": "$492.98", "Total":"$1,478.94", "Daily Gain": "-$451.28"},
-        {"name":"Visa", "ticker":"V", "shares": 13, "DCA": "$231.24", "Total":"$3,006.12", "Daily Gain": "$451.28"},
-        {"name":"Johnson Johnson", "ticker":"JNJ", "shares": 4, "DCA": "$134.20", "Total":"$536.8", "Daily Gain": "-$451.28"},
-        {"name":"CocaCola", "ticker":"KO", "shares": 30, "DCA": "$55.67", "Total":"$1,670.1", "Daily Gain": "-$451.28"},
-        {"name":"Walmart Inc", "ticker":"WMT", "shares": 8, "DCA": "$153.94", "Total":"$1,231.52", "Daily Gain": "$451.28"}
+        {"name":"Apple", "ticker":"AAPL", "shares": 20, "DCA": "$180.90", "Total":"$3,618.00", "Current Price":"$191.31","Daily Gain": "$451.28"},
+        {"name":"Microsoft", "ticker":"MSFT", "shares": 10, "DCA": "$361.20", "Total":"$3,612.00", "Current Price":"$377.85","Daily Gain": "$451.28"},
+        {"name":"Nvidia", "ticker":"NVDA", "shares": 3, "DCA": "$492.98", "Total":"$1,478.94", "Current Price":"$487.16", "Daily Gain": "-$451.28"},
+        {"name":"Visa", "ticker":"V", "shares": 13, "DCA": "$231.24", "Total":"$3,006.12", "Current Price":"$253.72","Daily Gain": "$451.28"},
+        {"name":"Johnson Johnson", "ticker":"JNJ", "shares": 4, "DCA": "$134.20", "Total":"$536.8", "Current Price":"$150.82", "Daily Gain": "-$451.28"},
+        {"name":"CocaCola", "ticker":"KO", "shares": 30, "DCA": "$55.67", "Total":"$1,670.1","Current Price":"$58.42", "Daily Gain": "-$451.28"},
+        {"name":"Walmart Inc", "ticker":"WMT", "shares": 8, "DCA": "$153.94", "Total":"$1,231.52", "Current Price":"$154.67","Daily Gain": "$451.28"}
     ],
     "asset_pie":[
         {"name":"AAPL", "shares": 20, "DCA": 180.90, "Total":3618},

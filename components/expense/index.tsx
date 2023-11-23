@@ -34,7 +34,10 @@ const Expenses = () => {
                             ))
                         }
                     </div>
-                    <div className="px-2">
+                    <div className="pl-5 pr-3 pt-4">
+                            <h1 className="text-xl text-white font-bold">
+                                Overview
+                            </h1>
                         <ExpTable/>
                     </div>
                 </div>

@@ -13,13 +13,13 @@ const Assets = () => {
                     <AssetTable/>
                 </div>
                 <div className="w-[40%] h-full">
-                    <div className="h-[50%] rounded-2xl p-5 bg-[#2f3033]">
+                    <div className="h-[48%] rounded-2xl p-5 bg-[#2f3033]">
                         <h1 className="text-xl px-3 text-white pb-5 pl-4 font-bold">
                             Asset Growth
                         </h1>
                         <AssetTrend/>
                     </div>
-                    <div className="h-[50%] rounded-2xl mt-2 bg-[#2f3033] p-5">
+                    <div className="h-[48%] rounded-2xl mt-5 bg-[#2f3033] p-5">
                         <h1 className="text-xl px-3 text-white pb-2 pl-4 font-bold">
                             Asset Breakdown
                         </h1>

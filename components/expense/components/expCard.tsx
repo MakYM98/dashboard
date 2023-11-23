@@ -19,7 +19,7 @@ const ExpCard = ({name, budget, used, percentage} : ExpProps) => {
                     {used} / {budget}
                 </h5>
                 <div className="bg-[#1a1b1f] w-full h-[10px] rounded-2xl">
-                    <div className={`bg-white h-full rounded-2xl w-[${percentage}]`}></div>
+                    <div className={`bg-green-500 h-full rounded-2xl w-[${percentage}]`}></div>
                 </div>
             </div>
         </div>
