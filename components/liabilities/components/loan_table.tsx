@@ -16,6 +16,7 @@ const LoanTable = () => {
                             <th>Paid</th>
                             <th>Monthly</th>
                             <th>Upcoming</th>
+                            <th>Last Paid</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -27,6 +28,7 @@ const LoanTable = () => {
                                     <td className={`${data['loan_table'][i+1]? 'border-b-2 border-slate-100':''} pb-2`}>{item.paid}</td>
                                     <td className={`${data['loan_table'][i+1]? 'border-b-2 border-slate-100':''} pb-2`}>{item.monthly}</td>
                                     <td className={`${data['loan_table'][i+1]? 'border-b-2 border-slate-100':''} pb-2`}>{item.upcoming}</td>
+                                    <td className={`${data['loan_table'][i+1]? 'border-b-2 border-slate-100':''} pb-2`}>{item.last_paid}</td>
                                 </tr>
                             ))
                         }

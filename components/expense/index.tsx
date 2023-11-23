@@ -11,14 +11,14 @@ const Expenses = () => {
         <div className="h-full flex flex-col">
             <TabHeader title="Expenses"/>
             <div className="h-[95%] w-full flex gap-2">
-                <div className="h-[100%] w-[40%] xl:w-[25%] pt-5 mt-2 rounded-2xl flex flex-col justify-start bg-[#2f3033] items-start">
+                <div className="h-[100%] w-[50%] xl:w-[40%] pt-5 mt-2 rounded-2xl flex flex-col justify-start bg-[#2f3033] items-start">
                     <h1 className="text-xl px-3 text-white w-full pb-2 pl-4 font-bold">
                         Expenses Breakdown
                     </h1>
                     <ExpPie/>
                     <ExpPieTable/>
                 </div>
-                <div className="w-[60%] xl:w-[75%] h-full">
+                <div className="w-[50%] xl:w-[60%] h-full">
                     <div className="w-full h-[20%] grid grid-cols-3 gap-3 px-2 pt-2">
                     
                         {
