@@ -16,7 +16,7 @@ const AssetPie = () => {
         <PieChart width={730} height={250}>
             <Pie data={data['asset_pie']} dataKey="Total" nameKey="ticker" cx="50%" cy="50%" outerRadius={100} fill="#8884d8" label={renderLabel}>
                 {
-                    data['asset_pie'].map((entry,index) => <Cell fill={COLORS[index % COLORS.length]}/>)
+                    data['asset_pie'].map((entry,index) => <Cell fill={COLORS[index % COLORS.length]} key={index}/>)
                 }
             </Pie>
         </PieChart>

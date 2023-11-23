@@ -16,7 +16,7 @@ const ExpPie = () => {
         <PieChart width={730} height={250}>
             <Pie data={data['exp_pie']} dataKey="Total" nameKey="name" cx="50%" cy="50%" outerRadius={150} fill="#8884d8" label={renderLabel}>
                 {
-                    data['exp_pie'].map((entry,index) => <Cell fill={COLORS[index % COLORS.length]}/>)
+                    data['exp_pie'].map((entry,index) => <Cell fill={COLORS[index % COLORS.length]} key={index}/>)
                 }
             </Pie>
         </PieChart>

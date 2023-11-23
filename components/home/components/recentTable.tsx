@@ -11,7 +11,7 @@ const RecentTable = () => {
                     <tbody>
                         {
                             data['activity_data'].map((item, i) => (
-                                <tr>
+                                <tr key={i}>
                                     <td className={`pb-2 w-[15%]`}>
                                         <div>
                                             <p className=' text-white'>

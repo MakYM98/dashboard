@@ -15,7 +15,7 @@ const Home = () => {
                     <div className="w-full grid grid-cols-4 gap-2 h-full">
                         {
                             data['card_data'].map(x => (
-                                <div className="col-span-1">
+                                <div className="col-span-1" key={x.name}>
                                     <InfoCard
                                         title={x.name}
                                         value={x.amount}

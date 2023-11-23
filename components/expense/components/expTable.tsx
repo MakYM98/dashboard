@@ -18,7 +18,7 @@ const ExpTable = () => {
                     <tbody>
                         {
                             data['exp_table'].map((item, i) => (
-                                <tr>
+                                <tr key={i}>
                                     <td className={`text-white pb-2`}>{item.name}</td>
                                     <td className={`text-white pb-2`}>{item.Budget}</td>
                                     <td className={`text-white pb-2`}>{item.Date}</td>

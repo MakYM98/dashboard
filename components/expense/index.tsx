@@ -23,7 +23,7 @@ const Expenses = () => {
                     
                         {
                             data['exp_cards'].map(card => (
-                                <div className="col-span1">
+                                <div className="col-span1" key={card.name}>
                                     <ExpCard
                                         name={card.name}
                                         budget={card.budget}

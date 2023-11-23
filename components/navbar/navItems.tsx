@@ -19,6 +19,7 @@ const NavItems = () => {
                 {
                     data['items'].map((item:any) => (
                         <div
+                            key={item.nav}
                             onClick={()=>{dispatch(updTab({tab:item.nav}))}}
                             className={`
                                 pt-5 text-lg text-gray-400 hover:text-[#9a9764] 

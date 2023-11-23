@@ -18,7 +18,7 @@ const AssetTable = () => {
                     <tbody>
                         {
                             data['asset_table'].map((item, i) => (
-                                <tr>
+                                <tr key={i}>
                                     <td className={`${data['asset_table'][i+1]? ' border-slate-100':''} pb-2 text-white`}>
                                         <div className=''>
                                             <p>
