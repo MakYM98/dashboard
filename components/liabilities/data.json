@@ -4,8 +4,8 @@
         {"name":"Left", "amount":90000, "percentage":"90%"}
     ],
     "loan_table":[
-        {"name":"Student Loan", "total": 400, "paid": 200, "monthly":200, "upcoming":"17/11/2023", "last_paid":"17/10/2023"},
-        {"name":"Housing Loan", "total": 400, "paid": 200, "monthly":200, "upcoming":"12/11/2023", "last_paid":"12/10/2023"},
-        {"name":"Renovation Loan", "total": 400, "paid": 200, "monthly":200, "upcoming":"08/11/2023", "last_paid":"08/10/2023"}
+        {"name":"Student Loan", "total": "$20,000", "paid": "$2,000", "monthly":"$200", "upcoming":"01/12/2023", "last_paid":"01/11/2023"},
+        {"name":"Housing Loan", "total": "$50,000", "paid": "$5,000", "monthly":"$500", "upcoming":"15/12/2023", "last_paid":"15/11/2023"},
+        {"name":"Renovation Loan", "total": "$30,000", "paid": "$3,000", "monthly":"$300", "upcoming":"17/12/2023", "last_paid":"15/11/2023"}
     ]
 }
